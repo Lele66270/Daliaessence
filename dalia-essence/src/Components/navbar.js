@@ -5,8 +5,6 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const { user, logout } = useAuth();
-
-export default function Navbar() {
   return (
     <AppBar position="static" color="primary">
       <Toolbar>
